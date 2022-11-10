@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: "login to docker hub"
-        run:docker login --username amiraos --password dckr_pat_Ojewq2-WoEBb0QuvJbRm3W-kqNA
+        run: docker login --username amiraos --password dckr_pat_Ojewq2-WoEBb0QuvJbRm3W-kqNA
